@@ -1,0 +1,87 @@
+.header {
+  background-color: $fone;
+  height: 136px;
+  &__background {
+    position:fixed;
+    padding: 25px 0;
+    width: 100%;
+    background-color: rgb(20, 17, 39);
+  }
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+  }
+  &__logo {
+    &--img {
+      max-width: 185px;
+      width: 185px;
+      height: 40px;
+    }
+  }
+  .btn__call {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: $light;
+    padding: 15px 36px;
+    &:hover {
+      transform: scale(1.1);
+      background-color: rgb(219, 12, 49);
+      border-color: rgb(156, 8, 35);
+      transition:0.2s;
+    }
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: flex-end;
+  }
+  .information {
+    display: flex;
+    flex-direction: row;
+    font-size: $small-text;
+    color: #fff;
+    &:first-child {
+      width: 60%;
+    }
+    &:nth-child(2) {
+      text-align:right;
+      padding-right: 10px;
+      .information {
+        &__title {
+          font-size: 16px;
+        }
+        &__desc {
+          font-family: $light;
+        }
+      }
+    }
+    &__title {
+      font-family: $light;
+      font-size:20px;
+      span {
+        font-family: $regular;
+        font-weight: 600;
+      }
+    }
+    &__item {
+      padding-left: 10px;
+      &:first-child {
+        margin: 0;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      p {
+        margin: 0;
+        font-weight: 400;
+        line-height: 0.8;
+        &+p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

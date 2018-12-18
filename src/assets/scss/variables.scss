@@ -1,0 +1,61 @@
+@mixin main-theme-font-regular{
+  font-family: Arimo, sans-serif;
+  font-weight: normal;
+}
+/*colors*/
+$btn-main-hover: #bc3f2c;
+$light-text: #fff;
+$dark-text: #000;
+$fone: #f2f2f2;
+$color-btn: rgb(242, 15, 55);
+$border: #d1d1d1;
+
+
+$brown: #a99d7c;
+$brown-dark: #898066;
+$red-dark: #bd1717;
+$red: #f92626;
+$red-lat-screen: #ff0000;
+
+/*size text*/
+$header-footer-text: 14px;
+$small-text: 14px;
+$title: 45px;
+$subtitle-min: 22px;
+$subtitle: 38px;
+$text: 16px;
+$big-number: 56px;
+
+/*new-size text*/
+$middle-fonts:24px;
+/*new-size text*/
+
+/*Line height*/
+$line-height: 1.4;
+
+/*indents*/
+$padding-screen: 60px;
+$padding-first-screen: 50px 0 50px 0;
+$titles: 30px 0 90px 0;
+
+/*fonts*/
+$regular: Arimo;
+$light: Arimo;
+$bold: ArimoBold;
+$font-awesome: FontAwesome;
+
+
+
+
+/*For mobiles*/
+
+/*size text*/
+$header-footer-text-mb: 14px;
+$title-mb: 26px;
+$subtitle-mb: 24px;
+$text-mb: 16px;
+$big-number-mb: 56px;
+/*indents*/
+$padding-screen-mb: 40px 10px;
+$padding-first-screen-mb: 20px 0;
+$titles-mb: 0 0 30px 0;

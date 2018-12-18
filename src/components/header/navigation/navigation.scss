@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &__item {
+    width: 137px;
+    text-align: center;
+    padding-top: 21px;
+    a {
+      color:#fff;
+      font-size: 14px;
+      &:hover {
+        color: rgb(242, 15, 54);
+        transition:0.3s;
+      }
+    }
+  }
+  &__wrap {
+    margin: auto;
+    color: #fff;
+  }
+}

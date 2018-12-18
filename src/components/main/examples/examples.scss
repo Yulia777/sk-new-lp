@@ -1,0 +1,164 @@
+.examples {
+  &--logo {
+    display: flex;
+    flex-direction: row;
+    .square {
+      border: 8px solid #cdc2aa;
+      width: 220px;
+      height: 175px;
+    }
+    &__item {
+      &:first-child {
+        width: 70%;
+        z-index: 2;
+      }
+      &:last-child {
+        width: 30%;
+        position: relative;
+        right: 125px;
+        bottom: 40px;
+      }
+    }
+  }
+  color: #000;
+  display: block;
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    padding: $padding-first-screen;
+  }
+  &__title {
+    font-family: $bold;
+    font-size: 42px;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: right;
+    span {
+      font-family: $bold;
+      color: rgb(242, 15, 55);
+    }
+  }
+  &__desc {
+    font-size: $middle-fonts;
+    font-weight: 400;
+    text-align:center;
+    line-height: $line-height;
+    margin: 0 0;
+    span {
+      font-weight: 600;
+    }
+  }
+  &__btn {
+    cursor:pointer;
+    background-color: #f92626;
+    border-bottom: 6px solid #bd1717;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.45;
+    font-family: $bold;
+    text-align: left;
+    width: 420px;
+    margin: auto;
+    outline: 0!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    p {
+      margin: 0;
+      &:first-child {
+        width: 15%;
+        svg {
+          font-size: 46px;
+        }
+      }
+      &:last-child {
+        width: 70%;
+      }
+    }
+    &:hover{
+      background-color: #c82626;
+      border-bottom: 6px solid #a01717;
+    }
+  }
+  &__item {
+    padding: 35px 0 0 0;
+    margin: auto;
+    &:nth-child(2) {
+      padding: 25px 0 0 0;
+    }
+    .advantages {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+      &__img {
+        width: 50px;
+        height: 50px;
+      }
+      &__desc {
+        font-size: 20px;
+        width: 230px;
+        margin-left: 35px;
+        margin-top: 0;
+        line-height: $line-height;
+      }
+    }
+  }
+  .order {
+    background-image: url("/images/sk/fon-sale.jpg");
+    background-size: cover;
+    padding: 60px 0 0 0;
+    &__title {
+      font-size: 38px;
+      font-family: $bold;
+      color: #fff;
+      text-align: center;
+      text-shadow: 2px 2px 10px #000;
+      margin-top: 0;
+      span {
+        color:#f92626;
+      }
+    }
+    &__link {
+      color: #fff;
+      text-decoration: underline;
+      font-family: Arimo;
+      font-size: 18px;
+      text-align: center;
+      display: block;
+      padding: 10px 0 30px 0;
+      cursor: pointer;
+    }
+  }
+  .popup-overlay .form-examples {
+    width: 650px !important;
+    top: calc(50% - 180px)!important;
+    img {
+      width: 600px;
+      margin: auto;
+      display: block;
+    }
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .form-blank__field {
+      margin-bottom: 0;
+      margin-right: 10px;
+    }
+    .btn {
+      height: 40px;
+    }
+    input[type="submit"] {
+      margin: 0 auto;
+      width: 40%;
+      padding: 10px 0;
+    }
+  }
+}
