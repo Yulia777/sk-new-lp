@@ -34,6 +34,8 @@ class Examples extends Component{
                 event.target.phone.value = '';
             });
         this.props.callbackSuccess(true);
+        yaCounter21935674.reachGoal('zafiksirovat-skidku-na-fundament-submit');
+        ga('send','event','zafiksirovat-skidku-na-fundament-submit_ga','submit');
     }
 
     openPopupExamples() {

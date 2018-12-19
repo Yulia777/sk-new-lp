@@ -34,6 +34,8 @@ class Branding extends Component{
               event.target.phone.value = '';
           });
         this.props.getIdeaSuccess(true);
+        ga('send','event','zabronirovat-dom-submit_ga','submit');
+        yaCounter21935674.reachGoal('zabronirovat-dom-submit');
     }
     openPopupGetIdea() {
         this.setState({popupGetIdea: true});

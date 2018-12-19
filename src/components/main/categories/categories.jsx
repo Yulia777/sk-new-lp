@@ -32,6 +32,8 @@ class Categories extends Component{
                 event.target.name.value = '';
                 event.target.phone.value = '';
             });
+        yaCounter21935674.reachGoal('3d-modelirovanie-submit');
+        ga('send','event','3d-modelirovanie-submit_ga','submit');
     }
     openPopupOrder() {
         this.setState({popupOrder: true});

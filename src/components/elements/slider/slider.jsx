@@ -25,7 +25,7 @@ class SimpleSlider extends React.Component {
                         Клиентский менеджер
                     </p>
                 </div>
-                <div>
+                {/*<div>
                     <p className="text">
                         Вам перезвонит
                     </p>
@@ -36,7 +36,7 @@ class SimpleSlider extends React.Component {
                     <p className="manager">
                         Клиентский менеджер
                     </p>
-                </div>
+                </div>*/}
             </Slider>
         );
     }
