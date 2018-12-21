@@ -57,7 +57,13 @@ class Categories extends Component{
                     </h2>
                     <div className="modeling">
                         <div className="modeling__item">
-                            <img src="./images/sk/modeling3d.jpg" alt="Моделирование 3d" title="Моделирование 3d"/>
+                            {/*<img src="./images/sk/modeling3d.jpg" alt="Моделирование 3d" title="Моделирование 3d"/>*/}
+
+                            <a className="fancybox-media2 fancybox.iframe" href="/media/amur/gostinnaya/Corona_Panorama.html" >
+                                <img className="img-responsive" src="./images/sk/modeling3d.jpg"/>
+                            </a>
+
+
                             <p className="image-title">
                                 «Дизайн проект гостиной и кухни»
                             </p>
