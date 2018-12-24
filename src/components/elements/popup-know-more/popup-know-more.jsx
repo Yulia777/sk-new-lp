@@ -30,7 +30,7 @@ const PopupKnow = (props) => {
                     </li>
                 </ul>
                 <h3 className="house-price__title">
-                    ЗАБРОНИРУЙТЕ И КУПИТЕ КЛЕЁННЫЙ БРУС <span>СЕГОДНЯ!</span>
+                    ЗАБРОНИРУЙТЕ И КУПИТЕ КЛЕЁННЫЙ БРУС <span>СЕГОДНЯ!</span><br/>
                     СЭКОНОМИТЕ ВРЕМЯ, ДЕНЬГИ И НЕРВЫ <span>ЗАВТРА!</span>
                 </h3>
                 <p className="house-price__info">

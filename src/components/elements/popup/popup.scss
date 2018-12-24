@@ -8,6 +8,7 @@
   transition: opacity 500ms;
   display: none;
   z-index: 1000;
+  overflow: scroll;
   &--cta {
     display: block;
   }
@@ -164,7 +165,7 @@
 .house-price {
   text-align: justify;
   &__title {
-    font-size: 16px;
+    font-size: 14px;
     font-family: $bold;
     text-align: center;
     span {
@@ -174,13 +175,15 @@
   &__info {
     text-transform: none!important;
     font-weight: 100!important;
+    font-size: 14px!important;
+    line-height: 1.2;
     span {
       font-family: $bold;
       color: #000!important;
     }
   }
   &__star {
-    font-size: 12px!important;
+    font-size: 10px!important;
     text-transform: none!important;
     font-family: $regular!important;
     font-weight: 100!important;
@@ -192,10 +195,12 @@
   }
   &__list {
     li {
-      list-style: none; /* Убираем исходные маркеры */
+      list-style: none;
       background: url("/images/sk/check.png") no-repeat 0 4px;
       padding-left: 24px;
       padding-bottom: 10px;
+      line-height: 1.2;
+      font-size: 14px;
     }
   }
 }

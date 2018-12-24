@@ -221,7 +221,7 @@
     padding: 25px 5px;
   }
   .branding .popup-overlay .form-branding {
-    width: 98% !important;
+    width: 100% !important;
     top: calc(50% - 180px)!important;
   }
   .popup-overlay .popup-form p {
@@ -238,22 +238,23 @@
   }
 
   .house-price {
-    line-height: 1;
+    line-height: 1!important;
+    overflow: scroll;
     &__title {
-      font-size: 9px;
+      font-size: 16px!important;
       margin-top: 0;
       margin-bottom: 0;
     }
     &__info {
-      font-size: 9px;
+      font-size: 16px!important;
     }
     &__list {
       li {
-        font-size: 9px;
+        font-size: 16px!important;
       }
     }
     &__star {
-      line-height: 1;
+      line-height: 1!important;
     }
   }
 
