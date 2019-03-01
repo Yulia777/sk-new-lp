@@ -53,7 +53,7 @@ class Categories extends Component{
                 <div className="container categories__wrap">
                     <h2 className="categories__title">
                         Для определения объёма стройматериалов и сметной стоимости на ваш будущий дом,
-                        предлагаем Экспресс услугу - <span>Эскизное проектирование с 3D моделированием</span>
+                        предлагаем Экспресс услугу -<br/> <span>Эскизное проектирование с 3D моделированием</span>
                     </h2>
                     <div className="modeling">
                         <div className="modeling__item">
