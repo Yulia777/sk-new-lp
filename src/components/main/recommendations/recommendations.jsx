@@ -16,7 +16,7 @@ class Recommendations extends Component{
                     </h2>
                     <Ligtbox/>
                     <p className="recommendations__desc">
-                        При заключении договора подряда до 7 марта 2019 г. -<br/>
+                        При заключении договора подряда до 31 марта 2019 г. -<br/>
                         <span> скидка на зимнее строительство</span> фундамента (монолитной плиты) <span>до 30%</span>
                     </p>
                 </div>
