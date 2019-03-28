@@ -20,7 +20,7 @@ export const postJson = (url, params) => {
 };
 
 export const formDataProcessing = (formTitle, name, phone, email, comment, teg, yaTarget) => {
-  return fetch ('https://quiz.stroy-kotedj.ru/amocrm/contact_add.php', {
+  return fetch ('https://www.stroy-kotedj.ru/amocrm/contact_add.php', {
         method: 'POST',
         headers: {"Content-type": "application/x-www-form-urlencoded"},
         body: `title-amo=ew&form_type=0&formTitle=${formTitle}&name=${name}&phone=${phone}&email=${email}&comment=${comment}&tag=${teg}`
